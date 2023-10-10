@@ -21,9 +21,9 @@
       </div>
       <div class="navbar">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#">Items</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="item.html">Items</a></li>
+          <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
           <li>
             <div class="cart-flex">
@@ -35,6 +35,17 @@
             </div>
           </li>
         </ul>
+      </div>
+      <div class="cart-content">
+        <h2 class="cart-title">Shopping Cart</h2>
+        <div class="cart-bigbox">
+        </div>
+        <div class="total">
+          <p class="total-title">Total</p>
+          <p class="total-price">$0</p>
+        </div>
+        <button type="button " class="buy-btn"><a href="payment.html">Checkout</a></button>
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
       </div>
     </div>
     <div class="section-1" id="home">
@@ -221,7 +232,62 @@
       </div>
     </div>
     <div class="section-5">
-      
+      <div class="carousel">
+        <button class="carousel_button carousel_button--left is-hidden">
+          <img src="image/left.png" alt="" />
+        </button>
+        <div class="carousel_track-container">
+          <ul class="carousel_track">
+            <li class="carousel_slide current-slide">
+              <img class="carousel_image" src="image/image 10 (2).png" alt="" />
+              <div>
+              <p>
+                "I'm so glad I could contribute to the Inter- <br> house Sports
+                Competition through this web <br> application. The process was
+                seamless and easy <br> to use, and I felt confident that my
+                contribution <br> was going directly towards the items the school
+                needed."
+              </p>
+              <p> Sarah, parent of a student at the school.</p>
+              </div>
+            </li>
+            <li class="carousel_slide">
+              <img class="carousel_image" src="image/image 10 (2).png" alt="" />
+              <div>
+              <p>
+                "I'm so glad I could contribute to the Inter- <br> house Sports
+                Competition through this web <br> application. The process was
+                seamless and easy <br> to use, and I felt confident that my
+                contribution <br> was going directly towards the items the school
+                needed."
+              </p>
+              <p> Sarah, parent of a student at the school.</p>
+              </div>
+            </li>
+            <li class="carousel_slide">
+              <img class="carousel_image" src="image/image 10 (2).png" alt="" />
+              <div>
+              <p>
+                "I'm so glad I could contribute to the Inter- <br> house Sports
+                Competition through this web <br> application. The process was
+                seamless and easy <br> to use, and I felt confident that my
+                contribution <br> was going directly towards the items the school
+                needed."
+              </p>
+              <p> Sarah, parent of a student at the school.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel_button carousel_button--right">
+          <img src="image/right.png" alt="" />
+        </button>
+        <div class="carousel_nav">
+          <button class="carousel_indicator current-slide"></button>
+          <button class="carousel_indicator"></button>
+          <button class="carousel_indicator"></button>
+        </div>
+      </div>
     </div>
     <div class="footer">
       <div class="row-1">
@@ -272,5 +338,6 @@
     <div class="copy">
       <p>© All rights reserved. TBA. Powered by The Blue Academy</p>
     </div>
+    <script src="script.js"></script>
   </body>
-</html> 
+</html>
